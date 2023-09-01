@@ -11,7 +11,7 @@ namespace Lesson
         static void Main(string[] args)
         {
             Console.Write("Введите возраст: ");
-            int age = Convert.ToInt32(Console.ReadLine());
+            int age = 22;
             
             if (age >= 18)
             {
