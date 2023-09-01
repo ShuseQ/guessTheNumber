@@ -10,7 +10,17 @@ namespace Lesson
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello worl");
+            Console.Write("Введите возраст: ");
+            int age = Convert.ToInt32(Console.ReadLine());
+            
+            if (age >= 18)
+            {
+                Console.WriteLine("Вы можете пройти!");
+            }
+            else
+            {
+                Console.WriteLine("Вы слишком юны, приходите через " + (18 - age) + " лет!");
+            }
         }
     }
 }
